@@ -7,7 +7,7 @@ from google import genai
 
 load_dotenv()
 client = genai.Client()  # reads GEMINI_API_KEY from .env
-MODELS = ["gemma-4-26b-a4b-it", "gemma-4-31b-it", "gemini-2.5-flash"]
+MODELS = ["gemma-4-26b-a4b-it", "gemma-4-31b-it", "gemini-3.8-flash"]
 SKILLS_DIR = Path(__file__).parent / "skills"
 
 AGENTS = {
